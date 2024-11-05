@@ -112,7 +112,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.acctview" name="acctviewer" version="2.4.2" provider-name="Zaxxon709">
+<addon id="script.module.acctview" name="acctviewer" version="2.4.3" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
     <extension point="xbmc.python.module" library="resources" />
