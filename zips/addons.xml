@@ -47,7 +47,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.dbview" name="dbviewer" version="1.0.0" provider-name="Zaxxon709">
+<addon id="script.module.dbview" name="dbviewer" version="1.0.1" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
     <extension point="xbmc.python.module" library="resources" />
@@ -60,11 +60,11 @@
     </extension>
 </addon>
 
-<addon id="script.module.debridmgr" version="1.0.1" name="Debrid Manager" provider-name="Zaxxon709">
+<addon id="script.module.debridmgr" version="1.0.2" name="Debrid Manager" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
-            	<import addon="script.module.dbview" version="1.0.0" />
+            	<import addon="script.module.dbview" version="1.0.1" />
 	</requires>
 	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
 	<extension point="xbmc.python.script" library="lib/default.py">
