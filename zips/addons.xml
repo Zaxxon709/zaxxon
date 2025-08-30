@@ -27,7 +27,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.maxql" name="MaxQL" version="1.1.7" provider-name="Zaxxon709">
+<addon id="plugin.program.maxql" name="MaxQL" version="1.1.8" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -46,6 +46,7 @@
 		<email></email>
 		<source></source>
 		<news>
+			1.1.8 - Removed Ezra, Infinity, Taz19, Unleashed, Magic Dragon and Twisted.
 			1.1.7 - Removed Affenity and Unleashed
 			1.1.6 - Removed OneMoar, TheLab, TheLabjr, Nightwing. Added Infinity and Nightwing Lite
 			1.1.5 - Added OneMoar.
