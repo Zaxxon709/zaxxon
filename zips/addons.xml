@@ -219,7 +219,6 @@
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>image</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" />
     <extension point="xbmc.addon.metadata">
@@ -237,12 +236,11 @@
     </extension>
 </addon>
 
-<addon id="script.hideosd" version="99.0.9" name="Hide Video OSD" provider-name="aenema, Zaxxon709">
+<addon id="script.hideosd" version="1.0.5" name="Hide Video OSD" provider-name="aenema, Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="main.py">
-		<provides>image</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
