@@ -219,6 +219,7 @@
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>executable<provides/>
     </extension>
     <extension point="xbmc.service" library="service.py" />
     <extension point="xbmc.addon.metadata">
@@ -241,6 +242,7 @@
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>executable<provides/>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
