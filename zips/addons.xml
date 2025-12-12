@@ -237,25 +237,6 @@
     </extension>
 </addon>
 
-<addon id="script.fentastic.helper" name="FENtastic Helper" version="909.6.20a" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" version="2.19.1"/>
-    </requires>
-    <extension point="xbmc.python.library" library="resources/lib/default.py"/>
-    <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <news />
-        <platform>all</platform>
-        <license>GPL-2.0-only</license>
-        <forum />
-        <source />
-        <description lang="en_GB">FENtastic Helper for the FENtastic Skin.</description>
-        <description lang="en_NZ">FENtastic Helper for the FENtastic Skin.</description>
-        <description lang="en_US">FENtastic Helper for the FENtastic Skin.</description>
-    </extension>
-</addon>
-
 <addon id="script.hideosd" version="1.0.5" name="Hide Video OSD" provider-name="aenema, Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -311,43 +292,6 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.png</fanart>
 		</assets>
-	</extension>
-</addon>
-
-<addon id="skin.fentastic" version="909.0.25" name="FENtastic Plus"
-	provider-name="Ivar Brandt, Zaxxon709">
-	<requires>
-		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.fentastic.helper" version="909.6.20a" />
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
-		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
-		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
-		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
-		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
-		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum>http://forum.kodi.tv/</forum>
-		<source>https://github.com/xbmc/skin.estuary/</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/images/customizable_widgets.jpg</screenshot>
-			<screenshot>resources/images/infopanel.jpg</screenshot>
-			<screenshot>resources/images/viewtypes1.jpg</screenshot>
-		</assets>
-		<summary lang="en_GB">FENtastic Plus skin (Estuary MOD)</summary>
-		<summary lang="en_NZ">FENtastic Plus skin (Estuary MOD)</summary>
-		<summary lang="en_US">FENtastic Plus skin (Estuary MOD)</summary>
-		<description lang="en_GB">FENtastic Plus is a modified version of the FENtastic skin. It is intended for use with TMDbH, FEN Light, Umbrella or POV.[CR][CR]See [B]CHANGELOG[/B] located in Skin settings » Extra info for latest changes.</description>
-		<description lang="en_NZ">FENtastic Plus is a modified version of the FENtastic skin. It is intended for use with TMDbH, FEN Light, Umbrella or POV.[CR][CR]See [B]CHANGELOG[/B] located in Skin settings » Extra info for latest changes.</description>
-		<description lang="en_US">FENtastic Plus is a modified version of the FENtastic skin. It is intended for use with TMDbH, FEN Light, Umbrella or POV.[CR][CR]See [B]CHANGELOG[/B] located in Skin settings » Extra info for latest changes.</description>
 	</extension>
 </addon>
 </addons>
