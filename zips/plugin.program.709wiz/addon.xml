@@ -9,7 +9,7 @@
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">7o9's lightweight Wizard</summary>
-		<description lang="en_GB">_-A simple version of simple-_</description>
+		<description lang="en_GB">A simple version of simple</description>
 		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
