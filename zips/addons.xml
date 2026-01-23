@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="100.1.3" provider-name="Slam, Sarge, Funsterbe, BYB, Zaxxon709">
+<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="100.1.4" provider-name="Slam, Sarge, Funsterbe, BYB, Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
