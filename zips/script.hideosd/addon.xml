@@ -16,5 +16,9 @@
 		<website>-</website>
 		<source>-</source>
 		<news>-</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
