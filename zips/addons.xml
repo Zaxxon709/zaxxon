@@ -27,7 +27,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.4.2+beta.2" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.3+beta.1" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -59,7 +59,7 @@
         <summary lang="cs_CZ">Plugin pro YouTube</summary>
         <summary lang="da_DK">Plugin til YouTube</summary>
         <summary lang="de_DE">Plugin für YouTube</summary>
-        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <summary lang="el_GR">Πρόσθετο για το YouTube</summary>
         <summary lang="en_GB">Plugin for YouTube</summary>
         <summary lang="eo">Aldonaĵo por YouTube</summary>
         <summary lang="es_ES">Complemento para YouTube</summary>
@@ -193,7 +193,7 @@
     </extension>
 </addon>
 
-<addon id="script.fentastic.helper" name="FENtastic Plus Helper" version="100.6.23" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
+<addon id="script.fentastic.helper" name="FENtastic Plus Helper" version="100.6.24" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -240,7 +240,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.acctmgr" version="1.0.3" name="[COLOR FF32D3FE][B]Account Manager[/B][/COLOR] [COLOR gold][B]Lite[/B][/COLOR]" provider-name="Zaxxon709">
+<addon id="script.module.acctmgr" version="1.0.4" name="[COLOR FF32D3FE][B]Account Manager[/B][/COLOR] [COLOR gold][B]Lite[/B][/COLOR]" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -282,11 +282,11 @@
     </extension>
 </addon>
 
-<addon id="skin.fentastic" version="100.0.28" name="FENtastic Plus"
+<addon id="skin.fentastic" version="100.0.29" name="FENtastic Plus"
 	provider-name="Ivar Brandt, Zaxxon709">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.fentastic.helper" version="100.6.22" />
+		<import addon="script.fentastic.helper" version="100.6.24" />
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
