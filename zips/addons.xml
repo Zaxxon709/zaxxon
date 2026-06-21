@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="100.2.0" provider-name="Slam, Sarge, Funsterbe, BYB, Zaxxon709">
+<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="100.2.1" provider-name="Slam, Sarge, Funsterbe, BYB, Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -216,7 +216,7 @@
     </extension>
 </addon>
 
-<addon id="script.fentastic.helper" name="FENtastic Plus Helper" version="100.6.25d" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
+<addon id="script.fentastic.helper" name="FENtastic Plus Helper" version="100.6.25e" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -305,11 +305,11 @@
     </extension>
 </addon>
 
-<addon id="skin.fentastic" version="100.0.30f" name="FENtastic Plus"
+<addon id="skin.fentastic" version="100.0.30g" name="FENtastic Plus"
 	provider-name="Ivar Brandt, Zaxxon709">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.fentastic.helper" version="100.6.25d" />
+		<import addon="script.fentastic.helper" version="100.6.25e" />
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
