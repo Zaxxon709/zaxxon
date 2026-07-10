@@ -50,7 +50,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.4.4+beta.4" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.4" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -79,7 +79,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <summary lang="bg_BG">Добавка за YouTube</summary>
         <summary lang="bs_BA">Dodatak za YouTube</summary>
-        <summary lang="cs_CZ">Plugin pro YouTube</summary>
+        <summary lang="cs_CZ">Doplněk pro YouTube</summary>
         <summary lang="da_DK">Plugin til YouTube</summary>
         <summary lang="de_DE">Plugin für YouTube</summary>
         <summary lang="el_GR">Πρόσθετο για το YouTube</summary>
@@ -112,7 +112,7 @@
         <summary lang="zh_TW">YouTube附加元件</summary>
         <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
         <description lang="bs_BA">YouTube je jedna od najvećih svjetskih web stranica za dijeljenje videozapisa.</description>
-        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
+        <description lang="cs_CZ">YouTube je jeden z největších webů pro sdílení videí na světě.</description>
         <description lang="da_DK">YouTube er et af verdens største videodelingswebsteder.</description>
         <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
         <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
@@ -141,7 +141,7 @@
         <description lang="zh_CN">油管是世界上最大的视频分享网站之一。</description>
         <description lang="zh_TW">Youtube 是全世界最大的影片分享網站。</description>
         <disclaimer lang="bs_BA">Ovaj dodatak nije odobren od strane Googlea</disclaimer>
-        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
+        <disclaimer lang="cs_CZ">Tento doplněk není oficiálně podporován společností Google</disclaimer>
         <disclaimer lang="da_DK">Dette plugin er ikke godkendt af Google</disclaimer>
         <disclaimer lang="de_DE">Dieses Plugin ist nicht von Google befürwortet</disclaimer>
         <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
@@ -216,7 +216,7 @@
     </extension>
 </addon>
 
-<addon id="script.fentastic.helper" name="FENtastic Plus Helper" version="100.6.25h" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
+<addon id="script.fentastic.helper" name="FENtastic Plus Helper" version="100.6.26" provider-name="Tikipeter, Ivar Brandt, Zaxxon709">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -305,11 +305,11 @@
     </extension>
 </addon>
 
-<addon id="skin.fentastic" version="100.0.30k" name="FENtastic Plus"
+<addon id="skin.fentastic" version="100.0.31" name="FENtastic Plus"
 	provider-name="Ivar Brandt, Zaxxon709">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.fentastic.helper" version="100.6.25h" />
+		<import addon="script.fentastic.helper" version="100.6.26" />
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
