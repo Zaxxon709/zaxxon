@@ -185,7 +185,7 @@
     </extension>
 </addon>
 
-<addon id="skin.fentastic" version="100.0.33a" name="FENtastic Plus"
+<addon id="skin.fentastic" version="100.0.34" name="FENtastic Plus"
 	provider-name="Ivar Brandt, Zaxxon709">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
